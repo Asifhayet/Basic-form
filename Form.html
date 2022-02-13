@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <p>
+        <h1>Travel reservation form</h1><br/>
+        <h3>* denotes mandatory</h3>
+    </p>
+
+    <form>
+        <label>Full name*:</label></br>
+        <input type="text" value="FirstName LastName"><br/><br/>
+        <label>Email adress*:</label><br/>
+        <input type="text" value="EMAIL_ADDRESS"><br/><br/>
+        <label>Select Tour Package*:</label><br/>
+        <select>
+            <option value="Goa">Goa</option>
+            <option value="Kashmir">Kashmir</option>
+            <option value="Rajasthan">Rajasthan</option>
+        </select>
+        <br/>
+        <br/>
+        <label>Number of persons*:</label><br/>
+        <input type="text" value="UNKNOWN_TYPE"><br/><br/>
+        <label>What would you want to avail?*</label><br/>
+        Boarding<input type="checkbox" name="facilities[]" value="Boarding"><br/>
+        Footing<input type="checkbox" name="facilities[]"value="Footing"><br/>
+        Sight seeing<input type="checkbox"name="facilities[]" value="Sight seeing"><br/><br/>
+        <label>Discount Coupon code*:</label><br/>
+        <input type="text" value="UNKNOWN_TYPE"><br/><br/>
+        <label>Terms and conditions*</label>
+        <input type="radio" name="ads" value="agree" checked>I agree
+        <input type="radio" name="ads" value="disagree">I disagree<br/>
+        <button>Complete reservation</button>
+    </form>
+</body>
+</html>
